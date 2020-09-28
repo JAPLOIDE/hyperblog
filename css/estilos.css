@@ -6,6 +6,24 @@ body{
     font-family: "arial";
 }
 
+#cabecera #tagline{
+    font-weight: normal;
+    font-size: 0.8em;
+    margin: 0 0 0 1em ;
+}
+
+
+#cabecera{
+    background: #33a;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+    -webkit-box-shadow: 50px 46px 2px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 50px 46px 2px 6px rgba(0,0,0,0.75);
+    box-shadow: 50px 46px 2px 6px rgba(0,0,0,0.75);
+}
+
 #container{
     width: 70%;
     padding: 1em;
@@ -16,4 +34,8 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+#post{
+    padding: 1em;
 }
